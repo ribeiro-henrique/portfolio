@@ -1,0 +1,50 @@
+.App {
+  background-color: #F0ECDE;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #3D556E;
+  height: 100vh; /* A altura ocupa a tela inteira */
+  width: 100vw; /* A largura ocupa a tela inteira */
+  margin: 0; /* Remove a margem padrão do corpo do documento */
+  overflow: hidden; /* Evita que qualquer conteúdo excedente seja visível */
+}
+
+
+.App.escuro {
+  background-color: #2D4157; /* Define o estilo do tema escuro */
+  color: #fff; /* Define a cor do texto para o tema escuro */
+}
+
+
+.h1 {
+  font-size: 1.8em;
+}
+
+.span-claro {
+  font-size: 30px;
+  cursor: pointer;
+  /* transition: all 0.3s ease; */
+}
+
+.span-escuro {
+  font-size: 25px;
+  margin-top: 0.23em;
+  cursor: pointer;
+  /* transition: all 0.3s ease; */
+}
+
+.span-claro:hover {
+  color: orange;
+ 
+}
+
+.span-escuro:hover {
+  color: orange;
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+}
