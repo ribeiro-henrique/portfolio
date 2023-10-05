@@ -1,0 +1,39 @@
+/* Centralizar a lista no site */
+div {
+  display: flex;
+  justify-content: center;
+  gap: 0.8em;
+}
+
+/* Estilo para cada item da lista */
+li {
+  max-width: 37em; /* Defina o tamanho máximo desejado */
+  margin: 1.25em 0; /* Espaçamento entre os itens */
+}
+
+/* Estilizar o link dentro de cada item */
+.link {
+  text-decoration: none; /* Remover sublinhado do link */
+}
+
+.link:hover {
+  text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre o link */
+}
+
+/* Texto justificado à esquerda */
+p {
+  text-align: left;
+}
+
+/* Alinhar os itens da lista de contato à esquerda */
+.list-contato {
+  text-align: left;
+  max-width: 4em;
+}
+
+/* @media only screen and (max-width: 768px) {
+
+  li {
+    max-width: 20em;
+  }
+} */
