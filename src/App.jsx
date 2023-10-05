@@ -4,6 +4,7 @@ import DarkPiramid from './components/DarkPiramid';
 import Content from './pages/Content';
 import { useState } from 'react';
 import { Howl } from 'howler';
+import music from './assets/hathor.mp3';
 
 function App() {
 const [theme, setTheme] = useState('claro');
@@ -19,7 +20,7 @@ const playOrPauseMusic = () => {
     sound.pause();
   } else {
     const newSound = new Howl({
-      src: ['src/assets/hathor.mp3'],
+      src: music,
     });
 
     newSound.play();
