@@ -20,8 +20,10 @@ const toggleTheme = () => {
         <span className='span-claro' onClick={toggleTheme}>☼</span> :
         <span className='span-escuro' onClick={toggleTheme}>☽</span>
       }
-      <p>Olá, sou o Henrique! Desenvolvedor Frontend e Advogado pela OAB-MG.</p>
-      <p>Atualmente estudo na <a className='link' href="https://www.betrybe.com/" target="_blank" rel="noreferrer">Trybe</a></p>
+      <div className='presentation'>
+        <p>Olá, sou o Henrique!</p>
+        <p>Dev Full Stack e Advogado.</p>
+      </div>
 
       <br />
       <Content />
