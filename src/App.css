@@ -9,12 +9,15 @@
   width: 100vw; /* A largura ocupa a tela inteira */
   margin: 0; /* Remove a margem padrão do corpo do documento */
   overflow: hidden; /* Evita que qualquer conteúdo excedente seja visível */
+  transition: all 0.4s ease-in-out;
+  font-size: 20px;
 }
 
 
 .App.escuro {
   background-color: #2D4157; /* Define o estilo do tema escuro */
   color: #fff; /* Define a cor do texto para o tema escuro */
+  transition: all 0.4s ease-in-out;
 }
 
 
@@ -30,7 +33,7 @@
 
 .span-escuro {
   font-size: 25px;
-  margin-top: 0.23em;
+  margin-top: 0.29em;
   cursor: pointer;
   /* transition: all 0.3s ease; */
 }

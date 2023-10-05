@@ -1,6 +1,7 @@
 import './App.css';
 import LightPiramid from './components/LigthPiramid';
 import DarkPiramid from './components/DarkPiramid';
+import Content from './pages/Content';
 import { useState } from 'react';
 
 function App() {
@@ -21,6 +22,9 @@ const toggleTheme = () => {
       }
       <p>Olá, sou o Henrique! Desenvolvedor Frontend e Advogado pela OAB-MG.</p>
       <p>Atualmente estudo na <a className='link' href="https://www.betrybe.com/" target="_blank" rel="noreferrer">Trybe</a></p>
+
+      <br />
+      <Content />
     </div>
   )
 }
